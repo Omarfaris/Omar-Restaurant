@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JOBS</title>
+    <style>
+        .act {
+            background-color: darkblue;
+        }
+    </style>
+    <link rel="stylesheet" href="./css/styles.css">    
+</head>
+<body>
+    <h1 class="MainHeader">Work With Us?</h1>
+    <!--Pages-->
+    <ul class="pages">
+        <li class="SinglePage"><a class="PageLink" href="index.html">HOME</a></li>
+        <li class="SinglePage"><a class="PageLink" href="about.html">ABOUT US</a></li>
+        <li class="SinglePage act"><a class="PageLink" href="jobs.html">JOBS</a></li>
+    </ul>
+    <!--Pages-->
+    <h1 class="FormHead">Please fill the following form to apply for an interview</h1>
+    <form action="">
+        <h1 class="FormSubHead">Full Name</h1>
+        <input type="text" maxlength="50">
+        <br>
+        <br>
+        <h1 class="FormSubHead">Email</h1>
+        <input type="email" name="email" id="email">
+        <br>
+        <br>
+        <h1 class="FormSubHead">Choose The job you want to apply for</h1>
+        <select name="job" id="job">
+         <option value="HR">HR</option>
+         <option value="IT">IT</option>
+         <option value="Receptionist">Receptionist</option>
+         <option value="Delivery Boy">Delivery Boy</option>
+         <option value="Manager">Manager</option>
+         <option value="Chef">Chef</option>
+        </select>
+        <br>
+        <br>
+        <h1 class="FormSubHead">Write down a brief note about your skills</h1>
+        <textarea name="" id="" cols="30" rows="5"></textarea>
+        <br>
+        <br>
+        <h1 class="FormSubHead">Please upload your CV here (pdf required)</h1>
+        <input type="file" name="CV" id="CV">
+        <br>
+        <br>
+        <input type="submit" name="submit" id="submit" value="Submit Form"><br>You will be answered soon...
+    </form>
+</body>
+</html>
